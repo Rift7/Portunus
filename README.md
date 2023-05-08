@@ -1,6 +1,6 @@
 <h1 id="logo" style="display: inline-flex; align-items: center;">
   <img src="assets/icons/icon-512.png" height="80" width="80" alt="logo" />
-  Portunus - The API Key Snatcher
+  Portunus - The API Key Collector
 </h1>
 
 *"API keys are like underwear: don't share them, don't leave them lying around, and don't go out in public waving them around."*
