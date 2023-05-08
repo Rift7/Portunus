@@ -1,85 +1,85 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #212121;
-    color: #BDBDBD;
-    width: 400px;
-  }
-  
-  .container {
-    padding: 20px;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .logo {
-    width: 48px;
-    height: 48px;
-    margin-right: 10px;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  #query-selector {
-    width: 100%;
-    background-color: #2E2E2E;
-    color: #BDBDBD;
-    border: none;
-    padding: 5px 10px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-  }
-  
-  .table-container {
-    max-height: 200px;
-    overflow-y: auto;
-    margin-bottom: 20px;
-  }
-  
-  table {
-    width: 100%;
-    white-space: nowrap;
-    border-collapse: collapse;
-  }
-  
-  th,
-  td {
-    text-align: left;
-    padding: 10px;
-    border-bottom: 1px solid #9E9E9E;
-  }
-  
-  tr:hover {
-    background-color: #2E2E2E;
-  }
-  
-  .action-button {
-    background-color: #009688;
-    color: #BDBDBD;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 15px;
-    cursor: pointer;
-    margin-right: 10px;
-  }
-  
-  .action-button:hover {
-    background-color: #00695C;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
+  color: #BDBDBD;
+  width: 400px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#query-selector {
+  width: 100%;
+  background-color: #2E2E2E;
+  color: #BDBDBD;
+  border: none;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.table-container {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  white-space: nowrap;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #9E9E9E;
+}
+
+tr:hover {
+  background-color: #2E2E2E;
+}
+
+.action-button {
+  background-color: #009688;
+  color: #212121;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.action-button:hover {
+  background-color: #00695C;
+}
