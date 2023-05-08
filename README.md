@@ -43,6 +43,13 @@ Found strings will appear in the Portunus popup, where you can copy, delete, or 
 
 Use your newfound power responsibly. (Or not. We're not your mom.)
 
+
+## TODO 📅 
+
+- ✅ ~~Finish initial release.~~
+- 🔳 Add default API key filters.
+- 🔳 Add support for Chrome.
+
 ## Disclaimer ⚠️
 
 This extension is for **educational purposes** and **authorized use** only. Please use it responsibly and avoid poking around where you shouldn't. Remember, with great power comes great responsibility. 
