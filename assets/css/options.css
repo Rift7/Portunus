@@ -8,42 +8,51 @@ body {
   padding: 0;
   background-color: #212121;
   color: #BDBDBD;
-  width: 400px;
+  width: 100%;
 }
 
 .container {
   padding: 20px;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.logo {
-  width: 48px;
-  height: 48px;
-  margin-right: 10px;
-}
-
-h1 {
+h1,
+h2 {
   margin: 0;
+}
+
+form {
+  margin-bottom: 30px;
 }
 
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-#query-selector {
+input[type="text"] {
   width: 100%;
   background-color: #2E2E2E;
   color: #BDBDBD;
   border: none;
   padding: 5px 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 4px;
+}
+
+button {
+  background-color: #009688;
+  color: #212121;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00695C;
 }
 
 .table-container {
@@ -54,7 +63,6 @@ label {
 
 table {
   width: 100%;
-  white-space: nowrap;
   border-collapse: collapse;
 }
 
@@ -67,19 +75,4 @@ td {
 
 tr:hover {
   background-color: #2E2E2E;
-}
-
-.action-button {
-  background-color: #009688;
-  color: #212121;
-  font-weight: bold;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 15px;
-  cursor: pointer;
-  margin-right: 10px;
-}
-
-.action-button:hover {
-  background-color: #00695C;
 }
