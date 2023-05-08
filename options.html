@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/options.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Portunus Options</h1>
+    <form id="regex-form">
+      <label for="regex-name">Regex Query Name:</label>
+      <input type="text" id="regex-name" required>
+      <label for="regex-query">Regex Query:</label>
+      <input type="text" id="regex-query" required>
+      <button type="submit">Add / Update</button>
+    </form>
+    <h2>Saved Regex Queries</h2>
+    <div class="table-container">
+      <table id="regex-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Regex</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="assets/js/options.js"></script>
+</body>
+</html>

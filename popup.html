@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="assets/icons/icon-128.png" alt="Portunus Logo" class="logo">
+      <h1>Portunus</h1>
+    </div>
+    <label for="query-selector">Select a regex query:</label>
+    <select id="query-selector"></select>
+    <div class="table-container">
+      <table id="results-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Found Strings</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <button id="copy-all" class="action-button">Copy All</button>
+    <button id="delete-all" class="action-button">Delete All</button>
+    <button id="download-csv" class="action-button">Download CSV</button>
+  </div>
+  <script src="assets/js/popup.js"></script>
+</body>
+</html>
